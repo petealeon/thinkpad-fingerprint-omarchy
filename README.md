@@ -222,8 +222,10 @@ detail, and only reports success once its own algorithm has enough.
   and package steps assume the stock stack and can reinstall `fprintd`, which
   then races `open-fprintd` for the D-Bus name. Everything it would do is what
   this guide does manually.
-- If you ever want Omarchy to handle this natively, there is an upstream
-  feature request (see `upstream/omarchy-suggestion.md`).
+- If you ever want Omarchy to handle this natively, see the drafts under
+  `upstream/`: `omarchy-suggestion.md` (Discussion post), plus
+  `omarchy-wizard-proposal.md` and `manual-37-note.md` (reviewed-but-unsubmitted
+  changes to the setup wizard and the manual).
 
 ## Troubleshooting
 
